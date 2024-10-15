@@ -4,3 +4,7 @@ services:
     volumes:
       - ./scripts:/home/scripts
     command: "/home/scripts/welcome-compose.sh"
+  data-container:
+    image: nginx:1-alpine
+    volumes:
+      - ./scripts:/home/scripts
