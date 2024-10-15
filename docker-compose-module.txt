@@ -29,3 +29,10 @@ hello-container-1  | For more examples and ideas, visit:
 hello-container-1  |  https://docs.docker.com/get-started/
 hello-container-1  | 
 hello-container-1 exited with code 0
+
+docker_compose_module (main) % docker compose up
+[+] Running 1/0
+ ✔ Container docker_compose_module-hello-container-1  Created                                                                                                                              0.0s 
+Attaching to hello-container-1
+hello-container-1  | Hello, Docker Compose!
+hello-container-1 exited with code 0
