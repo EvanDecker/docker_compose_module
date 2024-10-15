@@ -1,0 +1,3 @@
+services:
+  hello-container:
+    image: hello-world

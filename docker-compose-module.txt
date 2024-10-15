@@ -1,0 +1,31 @@
+docker_compose_module (main) % docker compose up
+[+] Running 2/2
+ ✔ hello-container Pulled                                                                                                                                                                  1.1s 
+   ✔ 478afc919002 Pull complete                                                                                                                                                            0.3s 
+[+] Running 2/2
+ ✔ Network docker_compose_module_default              Created                                                                                                                              0.0s 
+ ✔ Container docker_compose_module-hello-container-1  Created                                                                                                                              0.0s 
+Attaching to hello-container-1
+hello-container-1  | 
+hello-container-1  | Hello from Docker!
+hello-container-1  | This message shows that your installation appears to be working correctly.
+hello-container-1  | 
+hello-container-1  | To generate this message, Docker took the following steps:
+hello-container-1  |  1. The Docker client contacted the Docker daemon.
+hello-container-1  |  2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+hello-container-1  |     (arm64v8)
+hello-container-1  |  3. The Docker daemon created a new container from that image which runs the
+hello-container-1  |     executable that produces the output you are currently reading.
+hello-container-1  |  4. The Docker daemon streamed that output to the Docker client, which sent it
+hello-container-1  |     to your terminal.
+hello-container-1  | 
+hello-container-1  | To try something more ambitious, you can run an Ubuntu container with:
+hello-container-1  |  $ docker run -it ubuntu bash
+hello-container-1  | 
+hello-container-1  | Share images, automate workflows, and more with a free Docker ID:
+hello-container-1  |  https://hub.docker.com/
+hello-container-1  | 
+hello-container-1  | For more examples and ideas, visit:
+hello-container-1  |  https://docs.docker.com/get-started/
+hello-container-1  | 
+hello-container-1 exited with code 0
